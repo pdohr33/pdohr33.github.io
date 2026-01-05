@@ -1,14 +1,129 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="7; '/home/'" />
-  <head>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<title>Peter Dohr</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dohr Business - Apps</title>
+  <meta name="description" content="Apps by Dohr Business: BlockDoku and KaizenFit." />
+  <link rel="stylesheet" href="/assets/site.css" />
 </head>
+
 <body>
-<h1 id="Welcome">Peter Dohr</h1>
-<p> Redirecting to my home page: <a href='https://pdohr33.github.io/home/'>HERE!</a></p>
+  <header class="top">
+    <div class="container">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">DB</div>
+        <div>
+          <div class="brand-title">Dohr Business</div>
+          <div class="brand-subtitle">Simple, polished apps you can jump into.</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a class="nav-link" href="#blockdoku">BlockDoku</a>
+        <a class="nav-link" href="#kaizenfit">KaizenFit</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Apps</h1>
+      <p>
+        A small collection of apps built with a focus on clean UX, fast performance, and easy onboarding.
+      </p>
+      <div class="hero-actions">
+        <a class="btn primary" href="https://play.google.com/store/apps/details?id=com.dohrbusiness.blockpuzzle" target="_blank" rel="noreferrer">Get BlockDoku</a>
+        <a class="btn" href="https://www.kaizenfit.app/" target="_blank" rel="noreferrer">Visit KaizenFit</a>
+      </div>
+    </section>
+
+    <section id="blockdoku" class="card app">
+      <div class="app-header">
+        <div class="app-icon" aria-hidden="true">🧩</div>
+        <div class="app-title">
+          <h2>BlockDoku</h2>
+          <p class="muted">Offline block puzzle with daily challenge, missions, and saved runs.</p>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div>
+          <h3>What it is</h3>
+          <ul>
+            <li>Drag pieces onto the grid and clear full rows or columns.</li>
+            <li>Daily Challenge plus Free Play.</li>
+            <li>Progress is saved so you can close the app and continue later.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Links</h3>
+          <div class="links">
+            <a class="btn primary" href="https://play.google.com/store/apps/details?id=com.dohrbusiness.blockpuzzle" target="_blank" rel="noreferrer">Google Play</a>
+            <a class="btn" href="https://pdohr33.github.io/blockdoku-privacy/" target="_blank" rel="noreferrer">Privacy Policy</a>
+            <a class="btn" href="mailto:blockdokuapp@gmail.com">Support Email</a>
+          </div>
+          <p class="tiny muted">
+            Note: This app contains ads. No account required.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="kaizenfit" class="card app">
+      <div class="app-header">
+        <div class="app-icon" aria-hidden="true">💪</div>
+        <div class="app-title">
+          <h2>KaizenFit</h2>
+          <p class="muted">Strength training built for consistency and progression.</p>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div>
+          <h3>What it is</h3>
+          <ul>
+            <li>Workout tracking with a clean, fast flow.</li>
+            <li>Training calendar and simple progression focus.</li>
+            <li>Designed to be easy to start and easy to stick with.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Links</h3>
+          <div class="links">
+            <a class="btn primary" href="https://www.kaizenfit.app/" target="_blank" rel="noreferrer">Website</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p class="muted">
+        For support or questions, email:
+      </p>
+      <div class="links">
+        <a class="btn" href="mailto:dohr.business@gmail.com">dohr.business@gmail.com</a>
+        <a class="btn" href="mailto:blockdokuapp@gmail.com">blockdokuapp@gmail.com</a>
+      </div>
+
+      <div class="tiny muted" style="margin-top:12px;">
+        App ads file: <a href="/app-ads.txt">/app-ads.txt</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="tiny muted">
+        © <span id="y"></span> Dohr Business
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
